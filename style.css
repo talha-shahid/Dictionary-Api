@@ -1,0 +1,43 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ body{
+    background-image: linear-gradient(to right, rgba(0, 255, 76, 0.753) , rgba(255, 255, 0, 0.26));
+
+}
+/* .container{
+
+
+
+} */
+#id{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    font-size:40px;
+}
+
+#myText{
+    height: 40px;
+    width: 200px;
+    position:relative;
+    top: -1vh;
+}
+
+#submit{
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: -6px;
+    cursor: pointer;
+} 
+
+#all{
+    position: relative;
+    top: 5vh;
+    left: 5vw;
+    font-size: larger;
+    width: 90vw;
+}
